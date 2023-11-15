@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Principal</title>
+    <link rel="stylesheet" href="/CSS/Contacto.css">
+    <link rel="stylesheet" href="/CSS/style.css" />
+
+    <link rel="icon" href="/Imagenes/logo1_equipo-removebg-preview (2).png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="/Imagenes/logo1_equipo-removebg-preview (2).png" alt="">
+        <h1>Contacto</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/HTML/PaginaPrincipal.html">Inicio</a></li>
+            <li><a href="/HTML/Horario.html">Horario</a></li>
+            <li><a href="/HTML/Servicios.html">Servicios</a></li>
+            <li><a href="/HTML/Contacto.html">Contacto</a></li>
+        </ul>
+    </nav> 
+    <main>
+        <article>
+          <div class="Formulario"><!--Principio de Formulario-->
+            <h1>Formulario de Contacto</h1> 
+              <form action="mailto: ibon.garcia@gmail.com">
+                <label for="nombre">Nombre</label> <!--Nombre-->
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+ 
+                <label for="email">Correo Electrónico</label> <!--EMAIL-->
+                <input type="email" id="email" name="email" placeholder="nombre@ejemplo.com" required>
+
+                <label for="edad">Edad</label> <!--EDAD-->
+                <input type="number" id="edad" name="edad" min="18" max="99" required>
+
+                  <label for="Sexo">Sexo</label><!-- SEXOs-->
+                  <select id="seleccionar-color" name="color-favorito">
+                    <option value="Hombre">Hombre</option>
+                    <option value="Mujer">Mujer</option>
+                    <option value="@">Prefiero no decirlo</option>
+                  </select>
+            
+                  <label for="comentarios">Comentarios</label> <!--COMENTARIOS-->
+                  <textarea id="comentarios" name="comentarios"  rows="4" cols="50"placeholder="Escribe tus comentarios aquí"></textarea>
+            
+                  <label for="acuerdo">Acepto los términos y condiciones</label> <!--Politica de Privacidad-->
+                  <input type="checkbox" id="acuerdo" name="acuerdo" value="acepto" required>
+                  <div class="radio-group">
+                    <p>¿Cómo te enteraste de nosotros?</p> <!--REDES SOCIALES-->
+                    <input type="radio" id="radio1">
+                    <label for="radio1">Redes Sociales</label>
+                    <input type="radio" id="radio2">
+                    <label for="radio2">Recomendación de un amigo</label>
+                    <input type="radio" id="radio3">
+                    <label for="radio3">Otros</label>
+                   
+                 <br><button  type="submit">Enviar</button> <!--Boton de Enviar-->
+              
+                </form>
+              </div>
+        </article>
+    </main>
+</body>
+<audio autoplay>     
+  <source src="/Audios/dembow.mp3"/>
+</audio>
+<footer>
+  <p>Derechos de autor &copy; 2023 MITEL BÍ</p>
+</footer>
+</html>

@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: #2f5582;
+    color: rgb(203, 178, 106);
+    text-align: center;
+    padding: -5px;
+    font-family: "Cartograph CF Thin", sans-serif;
+
+
+
+}
+header,img{
+max-width: 100%;
+height: auto;
+display: block;
+margin: 0 auto;
+max-height: fit-content;
+}
+/*Fin del encabezado*/
+
+/*Menu de navegacion*/
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #0d0a01c7;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+/*Fin de Menu de navegacion*/
+
+/*H1 NEON */
+h1{
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0%;
+    padding: 10px;
+    color: rgb(203, 178, 106);
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 2s;
+}
+video {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    
+
+
+}
+h1:hover{
+color:#fff;
+text-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4
+}
+
+
+h1 {
+    margin: 0;
+}
+
+/*Estructura de contenido principal*/
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+article {
+    background-color: #e9dede;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+article h2 {
+    color: #c89240;
+}
+/*Fin de la Estructura de contenido principal*/
+
+
+/* Pie de página--Footer */
+
+footer {
+    text-align: center;
+    background-color: #2f5582;
+    color: white;
+    padding: 10px 0;
+}
+
+/*Fin de Pie de pagina--Footer*/

@@ -1,0 +1,37 @@
+/*Tabla*/
+table {
+    width: 100%;
+    border-collapse: collapse; /*modelo del borde*/
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilos para hacer la tabla responsive */
+@media screen and (max-width: 600px) { /*adapta la tabla en pantallas pequeñas*/
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+
+    tr {
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+    }
+
+    td {
+        border: none;
+        border-bottom: 1px solid #ccc;
+        position: relative;
+        padding-left: 50%;
+    }
+
+
+}
+

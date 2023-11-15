@@ -1,0 +1,31 @@
+#Animacion{
+text-align: center;
+ animation: animacionTexto 5s 1;
+}
+
+@keyframes animacionTexto { /*definir animacion del texto*/
+    from{
+        transform: translateX(-500px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+#Animacion2{
+text-align: center;
+animation: animacionTexto2 5s 1; /*duracion de la animacion 5seg y que solo se haga 1 vez */
+}
+
+@keyframes animacionTexto2{
+    from{
+        transform: translateX(600px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+iframe{ /*estilo especifico*/
+    width: 70%;
+    }   
